@@ -1,7 +1,9 @@
 # LED_CONTROLLER_VIA_UART_ATMEGA328P
 
 ![photo_2023-01-29_01-09-43](https://user-images.githubusercontent.com/55639759/215300296-2994a4ad-1662-4f3e-8355-27595402f319.jpg)
-
+Picture of my built circuit
+![USAGE_EXAMPLE_LED_CONTROLLER_VIA_UART](https://user-images.githubusercontent.com/55639759/215300395-cce92c3f-6182-4ca4-8105-6162b3f6c053.png)
+Screenshoot of sample command sending in serial port software
 
 A project that led commands via UART in atmega328P popular MCU. In UART section code, we used based repository xanthium-enterprises/atmega328p-10bit-adc-configuration-code (algorithm and register configuration) in some portion of our code. 
 
