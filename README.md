@@ -38,10 +38,26 @@ If you enterred command other than list above, you will receive error message.
 
 Serial port speed is 115200 bit per second, data frame is 8 bit, stop bit is one and no parity, so please setting to 115200 bps, 8N1, no parity.
 
+You should use 14.7456 Mhz crystal oscillator for best working with UART inferface in microcontroller atmega328.
+Calculated baudrate via formula in Asynchronous normal mode UART, taking from datasheet. Value of UBRRn MUST BE INTEGER.  
+
+BAUD = fosc / 8(UBRRn + 1) and UBRRn = (fosc / (8 * BAUD)) - 1
+
+UBRRn = (14745600 / (8 * 115200)) - 1 = 15 
+
+If I take 16Mhz crystal oscillator and I had need baudrate 115200 bps UART for this project.   
+
+UBRRn = (16000000 / (8 * 115200)) - 1 = 16.361111111111........ ~ 16.0 
+BAUD = 16000000 / (8(16 + 1)) = 117647.05...... bps ~ 117650 bps 
+error = (117650 - 115200) / 115200 = 0.0212418301 ~ 0.0212 => 2.12 % 
+
+In conclusion, I choose exact frequecy of crystal oscillator where I received integer value of UBRRn, including use 14.7456 MHz crystal oscillator.  
+
 UART - Universal asynchronous receiver-transmitter. 
 LED -  Light-emitting diode
 
 Viewing repository and licence for related this project: https://github.com/xanthium-enterprises/atmega328p-serial-uart-to-pc-communication
+Datasheet of microcontroller atmega328p: https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 
 Credit: 
 Thanks xanthium-enterprises repositor for understanding and studying how work UART register code. :)
