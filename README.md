@@ -57,6 +57,7 @@ UART - Universal asynchronous receiver-transmitter.
 LED -  Light-emitting diode
 
 Viewing repository and licence for related this project: https://github.com/xanthium-enterprises/atmega328p-serial-uart-to-pc-communication
+
 Datasheet of microcontroller atmega328p: https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 
 Credit: 
