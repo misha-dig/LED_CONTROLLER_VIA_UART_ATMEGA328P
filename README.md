@@ -98,7 +98,7 @@ Datasheet of microcontroller atmega328p: https://ww1.microchip.com/downloads/en/
 
 Credit: 
 
-Thanks @xanthium-enterprises repositor and author Rahul Sreedharan for understanding and studying how work UART register code. :)
+Thanks xanthium-enterprises repositor and author Rahul Sreedharan for understanding and studying how work UART register code. :)
 
 Resource: 
 
