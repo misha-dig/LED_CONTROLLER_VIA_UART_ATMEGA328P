@@ -11,7 +11,7 @@ RED_LED_ON - Turn on red colour LED
 RED_LED_OFF - Turn off red colour LED 
 
 GREEN_LED_ON - Turn on green colour LED
-GREEN_LED_ON - Turn off green colour LED
+GREEN_LED_OFF - Turn off green colour LED
 
 BLUE_LED_ON - Turn on blue colour LED
 BLUE_LED_OFF - Turn off blue colour LED 
