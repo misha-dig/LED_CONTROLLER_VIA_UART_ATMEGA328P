@@ -1,6 +1,5 @@
 # LED_CONTROLLER_VIA_UART_ATMEGA328P
 
-![photo_2023-01-29_01-09-35](https://user-images.githubusercontent.com/55639759/215300294-5fc32459-f4b4-43bf-8832-d7a2b67281b3.jpg)
 ![photo_2023-01-29_01-09-43](https://user-images.githubusercontent.com/55639759/215300296-2994a4ad-1662-4f3e-8355-27595402f319.jpg)
 
 
