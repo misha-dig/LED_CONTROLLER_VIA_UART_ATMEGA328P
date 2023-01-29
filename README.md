@@ -53,24 +53,43 @@ error = (117650 - 115200) / 115200 = 0.0212418301 ~ 0.0212 => 2.12 %
 
 In conclusion, I choose exact frequecy of crystal oscillator where I received integer value of UBRRn, including use 14.7456 MHz crystal oscillator. 
 
-To order programm microcontroller, you need to have AVR programmer. (I had USB AVRISP XPII programmer)
+To order programm microcontroller, you need to have AVR programmer. (I had USB AVRISP XPII programmer) 
+
 USB AVRISP XPII programmer has support atmega328p MCU, according website link below. 
+
 See website instruction manual and list supported AVR MCU: https://www.waveshare.com/w/upload/DVD_AVR8_EN/data/product/USB_AVR_ISP_XPII_PG-1-1.htm
 
+Please note that: this programmer ISN'T DEBUGGER TOOL and it is just programmer like ARDUINO UNO
+
 To programm this project, you need to go to tools from menu bar in top side and select Device programming. 
+
 In small pop-window called Device programming, you need select tool as AVRISP after connect to computer your USB AVRISP.
+
 Choose interface as ISP and check button 'Apply' and check button 'Read' in both device signature and target voltage. 
+
 Select Memories in left side menu in pop window. 
+
 Click a button program
+
 Finish to programm
+
 Click close button in pop window after finished to program :)
+
 Note: If appear error read device signature, you may be incorrect connect to programmer and MCU. Second reason fuse may be cause if you checked corrected connect to programmer and MCU. Incorrect programming fuse is caused permanently damage your AVR microcontroller.  
 
 ![screenshot of atmel studio](https://user-images.githubusercontent.com/55639759/215302219-0fa8eccc-5766-449a-9953-031b8722ec50.png)
+Screenshoot Microchip Studio 7 IDE with opening pop window.
 
+![photo_2023-01-29_02-48-42](https://user-images.githubusercontent.com/55639759/215302786-2264337d-51cc-4ed0-9ff1-f0a527978a5d.jpg)
+
+![photo_2023-01-29_02-48-46](https://user-images.githubusercontent.com/55639759/215302789-3b72cfda-e28c-4588-b740-271d18782ed5.jpg)
+
+Picture of my USB AVRISP XPII programmer
 
 UART - Universal asynchronous receiver-transmitter. 
+
 LED -  Light-emitting diode
+
 MCU - Microcontroller unit
 
 Viewing repository and licence for related this project: https://github.com/xanthium-enterprises/atmega328p-serial-uart-to-pc-communication
@@ -78,9 +97,11 @@ Viewing repository and licence for related this project: https://github.com/xant
 Datasheet of microcontroller atmega328p: https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf
 
 Credit: 
+
 Thanks xanthium-enterprises repositor for understanding and studying how work UART register code. :)
 
 Resource: 
+
 Sreedharan, R. (2019, July 16th). ATmega238p to PC Serial Communication(RX/TX) using USART. Github. https://github.com/xanthium-enterprises/atmega328p-serial-uart-to-pc-communication/blob/master/_1_Serial_Transmit/main.c
 
 Sreedharan, R. (2019, July 16th). ATmega238p to PC Serial Communication(RX/TX) using USART. Github. https://github.com/xanthium-enterprises/atmega328p-serial-uart-to-pc-communication/blob/master/_2_Serial_Receive/main.c
