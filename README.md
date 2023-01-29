@@ -8,15 +8,19 @@ You can change led state via sending command in serial port ternimal and softwar
 List commands support: 
 
 RED_LED_ON - Turn on red colour LED  
+
 RED_LED_OFF - Turn off red colour LED 
 
 GREEN_LED_ON - Turn on green colour LED
+
 GREEN_LED_OFF - Turn off green colour LED
 
 BLUE_LED_ON - Turn on blue colour LED
+
 BLUE_LED_OFF - Turn off blue colour LED 
 
 ALL_LEDS_ON - Turn on all 3 LEDs
+
 ALL_LEDS_OFF - Turn off all 3 LEDs
 
 Hex value of carrige return - 0x0d.
