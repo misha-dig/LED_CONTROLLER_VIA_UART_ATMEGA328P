@@ -51,10 +51,27 @@ UBRRn = (16000000 / (8 * 115200)) - 1 = 16.361111111111........ ~ 16.0
 BAUD = 16000000 / (8(16 + 1)) = 117647.05...... bps ~ 117650 bps 
 error = (117650 - 115200) / 115200 = 0.0212418301 ~ 0.0212 => 2.12 % 
 
-In conclusion, I choose exact frequecy of crystal oscillator where I received integer value of UBRRn, including use 14.7456 MHz crystal oscillator.  
+In conclusion, I choose exact frequecy of crystal oscillator where I received integer value of UBRRn, including use 14.7456 MHz crystal oscillator. 
+
+To order programm microcontroller, you need to have AVR programmer. (I had USB AVRISP XPII programmer)
+USB AVRISP XPII programmer has support atmega328p MCU, according website link below. 
+See website instruction manual and list supported AVR MCU: https://www.waveshare.com/w/upload/DVD_AVR8_EN/data/product/USB_AVR_ISP_XPII_PG-1-1.htm
+
+To programm this project, you need to go to tools from menu bar in top side and select Device programming. 
+In small pop-window called Device programming, you need select tool as AVRISP after connect to computer your USB AVRISP.
+Choose interface as ISP and check button 'Apply' and check button 'Read' in both device signature and target voltage. 
+Select Memories in left side menu in pop window. 
+Click a button program
+Finish to programm
+Click close button in pop window after finished to program :)
+Note: If appear error read device signature, you may be incorrect connect to programmer and MCU. Second reason fuse may be cause if you checked corrected connect to programmer and MCU. Incorrect programming fuse is caused permanently damage your AVR microcontroller.  
+
+![screenshot of atmel studio](https://user-images.githubusercontent.com/55639759/215302219-0fa8eccc-5766-449a-9953-031b8722ec50.png)
+
 
 UART - Universal asynchronous receiver-transmitter. 
 LED -  Light-emitting diode
+MCU - Microcontroller unit
 
 Viewing repository and licence for related this project: https://github.com/xanthium-enterprises/atmega328p-serial-uart-to-pc-communication
 
