@@ -2,7 +2,9 @@
 
 ## Introduction
 
-I decided to programm register instead standard Arduino Core libraries due very large memory consumption and required simple open-source LED-controller via UART interface. I will work with this project for simple christmas twinkling light with advance features (e.g. slow fade light and adjusable brightness light). 
+I decided to write my programm with register instead standard Arduino Core libraries due very large memory consumption and required simple open-source LED-controller via UART interface. I will work with this project for simple christmas twinkling light with advance features (e.g. slow fade light and adjusable brightness light).
+
+I don't like to use Arduino Core for big projects due large memory consumption and delay much time to change algorithm.
 
 ## Application
   
