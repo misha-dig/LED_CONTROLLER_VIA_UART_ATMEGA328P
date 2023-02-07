@@ -92,14 +92,14 @@ Finish to programm
 
 Click close button in pop window after finished to program :)
 
-Note: If appear error read device signature, you may be incorrect connect to programmer and MCU. Second reason fuse may be cause if you checked corrected connect to programmer and MCU. Incorrect programming fuse is caused permanently damage your AVR microcontroller.  
+Note: If appear error read device signature, you may be incorrect connect to programmer and MCU. Second reason fuse may be cause if you checked corrected connect to programmer and MCU. Incorrect programming fuse is caused permanently damage your AVR microcontroller or required fix your Atmega328 via unbricking MCU methods.
 
 ![screenshot of atmel studio](https://user-images.githubusercontent.com/55639759/215302219-0fa8eccc-5766-449a-9953-031b8722ec50.png)
 Screenshoot Microchip Studio 7 IDE with opening pop window.
 
-![photo_2023-01-29_02-48-42](https://user-images.githubusercontent.com/55639759/215302786-2264337d-51cc-4ed0-9ff1-f0a527978a5d.jpg)
+![image](https://user-images.githubusercontent.com/55639759/217120921-574060f0-9871-4064-841e-e667ac4f5e40.png)
 
-![photo_2023-01-29_02-48-46](https://user-images.githubusercontent.com/55639759/215302789-3b72cfda-e28c-4588-b740-271d18782ed5.jpg)
+![image](https://user-images.githubusercontent.com/55639759/217121249-609a3f79-1503-4b95-ac67-72b5b5af65b8.png)
 
 Picture of my USB AVRISP XPII programmer
 
