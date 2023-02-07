@@ -8,7 +8,7 @@ I don't like to use Arduino Core for big projects due large memory consumption a
 
 ## Application
   
-This project is sutiable for I/O pins manipluation via UART with computer/server which computers haven't built-in GPIO pins. Almost all modern computers have USB ports, so you need to connect to computer via UART bridge adapter from MCU. Computer software can maniplulate LED via UART interface, where most use in IoT devices.
+This project is sutiable for I/O pins manipluation via UART for computer/server which computers haven't built-in GPIO pins. Almost all modern computers have USB ports, so you need to connect to computer via UART bridge adapter from MCU. Computer software can maniplulate LED via UART interface, where most use in IoT devices.
 I can say that microcontroller is assumed is desktop's computer gpio pins. You can control relay, led, power motor and other than some actuators. 
 
 ## Results and software describtion
