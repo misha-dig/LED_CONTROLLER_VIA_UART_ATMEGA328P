@@ -117,6 +117,8 @@ LED -  Light-emitting diode
 
 MCU - Microcontroller unit
 
+PCB - Printed Circuit Board
+
 ## Credit 
 
 Thanks xanthium-enterprises repositor and author Rahul Sreedharan for understanding and studying how work UART register code. :)
